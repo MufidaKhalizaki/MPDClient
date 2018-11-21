@@ -1,0 +1,110 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="ok">OK</string>
+    <string name="quit">Quit</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading…</string>
+    <string name="playlist">Playlist</string>
+    <string name="addAndReplace">Add and replace</string>
+    <string name="addAndReplacePlay">Add, replace and play</string>
+    <string name="addAlbum">Add album</string>
+    <string name="addPlaylist">New playlist</string>
+    <string name="addAndPlay">Add and play</string>
+    <string name="addArtist">Add artist</string>
+    <string name="addSong">Add song</string>
+    <string name="clear">Clear</string>
+    <string name="albumAdded">Album %s added</string>
+    <string name="artistAdded">Artist %s added</string>
+    <string name="host">Host</string>
+    <string name="hostDescription">MPD-Server Hostname or IP-Address</string>
+    <string name="port">Port</string>
+    <string name="portDescription">MPD-Server port (Default: 6600)</string>
+    <string name="password">Password</string>
+    <string name="passwordDescription">Password for the Server</string>
+    <string name="songs">Songs</string>
+    <string name="connectionSettings">Connection settings</string>
+    <string name="connectionSettingsDescription">Set MPD-Host/Port and password</string>
+    <string name="songAdded">Song %s added</string>
+    <string name="about">About</string>
+    <string name="connectionFailed">Connection Failed</string>
+    <string name="connectionFailedMessage">Connection to MPD-Server failed, Check if the Server is running and reachable. (%s) \n\n Wait a few seconds before trying again, once connected scroll through the screens to refresh.</string>
+    <string name="connecting">Connecting…</string>
+    <string name="connectingToServer">Connecting to MPD-Server.</string>
+    <string name="notConnected">Not connected</string>
+    <string name="noSongInfo">No song info</string>
+    <string name="playlistDeleted">Playlist %s deleted</string>
+    <string name="deletePlaylist">Delete playlist</string>
+    <string name="defaultSettings">Default connection settings</string>
+    <string name="search">Search</string>
+    <string name="search_label">MPDroid</string>
+    <string name="search_hint">Search …</string>
+    <string name="editPlaylist">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="updateDBDetails">Refresh MPD\'s database</string>
+    <string name="enableLocalCover">Download local cover art</string>
+    <string name="enableLocalCoverDescription">Get cover art from the server running MPD (requires a http server)</string>
+    <string name="cacheUsage">Cache usage</string>
+    <string name="connectionFailedMessageSetting">Connection failed, check your connection settings. (%s)</string>
+    <string name="no_result">No results</string>
+    <string name="deletePlaylistPrompt">Are you sure you wish to delete %s?</string>
+    <string name="addToPlaylist">Add to playlist</string>
+    <string name="streams">Streams</string>
+    <string name="addStream">Add Stream</string>
+    <string name="editStream">Edit stream</string>
+    <string name="streamAdded">Stream %s added</string>
+    <string name="deleteStream">Delete stream</string>
+    <string name="deleteStreamPrompt">Are you sure you wish to delete %s?</string>
+    <string name="streamName">Name:</string>
+    <string name="streamUrl">URL:</string>
+    <string name="play">Play</string>
+
+    <string name="pauseOnPhoneStateChange">Pause playback</string>
+    <string name="pauseOnPhoneStateChangeDescription">Pause playback when in a call</string>
+
+    <string name="clearLocalCoverCache">Clear cover art cache</string>
+    <string name="clearLocalCoverCacheDescription">Free the storage space used by the cover art cache</string>
+    <string name="clearLocalCoverCachePrompt">Delete all cached cover art ?</string>
+    <string name="updatingLocalAlbumCacheNote">Updating local album cache</string>
+
+    <string name="goToAlbum">Go to album</string>
+    <string name="resetCover">Reset image</string>
+
+    <string name="sharePrefix">Now Playing :</string>
+    <string name="enableInternetCover">Download cover art</string>
+    <string name="enableInternetCoverDescription">Get cover art using various internet services (sends them your song information)</string>
+    <string name="drawer_open" tools:ignore="MissingTranslation">Show drawer</string>
+    <string name="drawer_close" tools:ignore="MissingTranslation">Close drawer</string>
+
+    <string name="notPlayingInRandomMode">Not playing added items in random mode.</string>
+
+    <string name="mpd_unknown_album">(Unknown Album)</string>
+    <string name="mpd_unknown_artist">(Unknown Artist)</string>
+    <string name="mpd_unknown_genre">(Unknown Genre)</string>
+
+    <string name="exit">Quit</string>
+
+    <string name="minute_singulier">minute</string>
+    <string name="minute_pluriel">minutes</string>
+
+    <string name="titles">Titles</string>
+    <string name="title">Title</string>
+
+    <string name="playlist_name">Playlist name</string>
+
+    <string name="create_playlist">Create playlist</string>
+
+    <string name="add_radio2">Add to radio App</string>
+
+    <string name="addRadio_fromApp">Radio %1$s added</string>
+
+      <string name="menu_sort_by_artist">artist</string>
+    <string name="menu_sort_by_year">year</string>
+    <string name="queue">Queue</string>
+    <string name="defaultSettingsPlus">Default connection settings and covers</string>
+
+</resources>

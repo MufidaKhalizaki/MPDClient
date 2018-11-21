@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:key="preferencescreen">
+
+
+    <PreferenceScreen
+        android:key="connectionScreen"
+        android:summary="@string/connectionSettingsDescription"
+        android:title="@string/connectionSettings">
+
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="org.oucho.mpdclient.settings.ConnectionSettings"
+            android:targetPackage="org.oucho.mpdclient" />
+    </PreferenceScreen>
+
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pauseOnPhoneStateChange"
+        android:persistent="true"
+        android:summary="@string/pauseOnPhoneStateChangeDescription"
+        android:title="@string/pauseOnPhoneStateChange" />
+
+    <PreferenceScreen
+        android:key="refreshMPDDatabase"
+        android:title="@string/updateDBDetails" />
+
+    <PreferenceScreen
+        android:key="clearLocalCoverCache"
+        android:summary="@string/clearLocalCoverCacheDescription"
+        android:title="@string/clearLocalCoverCache" />
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:enabled="false"
+        android:key="cacheUsage"
+        android:title="@string/cacheUsage" />
+
+</PreferenceScreen>

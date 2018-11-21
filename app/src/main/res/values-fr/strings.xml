@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="artists">Artistes</string>
+    <string name="albums">Albums</string>
+    <string name="settings">Paramètres</string>
+    <string name="next">Suivant</string>
+    <string name="ok">OK</string>
+    <string name="quit">Quitter</string>
+    <string name="retry">Réessayer</string>
+    <string name="loading">Chargement …</string>
+    <string name="playlist">Playlist</string>
+    <string name="addAndReplace">Ajouter et remplacer</string>
+    <string name="addAndReplacePlay">Ajouter, remplacer et jouer</string>
+    <string name="addAndPlay">Ajouter et jouer</string>
+    <string name="addPlaylist">Nouvelle playlist</string>
+
+
+    <string name="addSong">Ajouter la titre</string>
+    <string name="addAlbum">Ajouter l\'album</string>
+    <string name="addArtist">Ajouter l\'artiste</string>
+    <string name="albumAdded">Album %s ajouté</string>
+    <string name="artistAdded">Artiste ajouté</string>
+    <string name="host">Hôte</string>
+    <string name="hostDescription">IP ou nom du serveur MPD</string>
+    <string name="port">Port</string>
+    <string name="portDescription">Port du serveur MPD (Defaut: 6600)</string>
+    <string name="password">Mot de passe</string>
+    <string name="passwordDescription">Mot de passe du serveur</string>
+    <string name="songs">Titres</string>
+    <string name="connectionSettings">Paramètres de connexion</string>
+    <string name="connectionSettingsDescription">Définir l\'addresse/port et mot de passe du serveur MPD</string>
+    <string name="songAdded">Titre %s ajoutée</string>
+    <string name="about">A Propos</string>
+    <string name="connectionFailed">Echec de la connexion</string>
+    <string name="connectionFailedMessage">Echec de la connexion au serveur MPD, verifiez que le serveur est atteignable (%s). \n\n Attendez quelques secondes avant de réessayer, une fois connecté faites défiler les écrans pour rafraîchir.</string>
+    <string name="connecting">Connexion …</string>
+    <string name="connectingToServer">Connexion au serveur MPD.</string>
+    <string name="notConnected">Non connecté</string>
+    <string name="noSongInfo">Aucune information</string>
+    <string name="playlistDeleted">Playlist %s supprimée</string>
+    <string name="deletePlaylist">Supprimer la Playlist</string>
+    <string name="defaultSettings">Paramètres de connexion</string>
+    <string name="search">Recherche</string>
+    <string name="search_label">MPDroid</string>
+    <string name="search_hint">Rechercher …</string>
+    <string name="editPlaylist">Modifier</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Sauvegarder</string>
+    <string name="clear">Vider</string>
+    <string name="updateDBDetails">Rafraichir la bibliothèque de MPD</string>
+    <string name="enableLocalCover">Télécharger les pochettes locales</string>
+    <string name="enableLocalCoverDescription">Obtenir les pochettes depuis le serveur MPD\n
+        http://[repertoire_musique]/cover.jpg</string>
+
+    <string name="cacheUsage">Espace occupé par le cache</string>
+    <string name="no_result">Aucun résultat</string>
+    <string name="addToPlaylist">Ajouter à la playlist</string>
+    <string name="play">Ecouter</string>
+
+    <string name="pauseOnPhoneStateChange">Mettre la musique en pause</string>
+    <string name="pauseOnPhoneStateChangeDescription">Mettre la lecture en pause lors d\'un appel</string>
+
+    <string name="clearLocalCoverCache">Vider le cache</string>
+    <string name="clearLocalCoverCacheDescription">Libère l\'espace utilisé par le cache de pochettes</string>
+    <string name="clearLocalCoverCachePrompt">Supprimer le cache de pochettes ?</string>
+
+    <string name="goToAlbum">Aller à l\'album</string>
+    <string name="resetCover">Réinitialiser l\'image</string>
+
+    <string name="sharePrefix">Now Playing :</string>
+    <string name="enableInternetCover">Télécharger les pochettes</string>
+    <string name="enableInternetCoverDescription">Obtenir les pochettes via iTunes et Deezer</string>
+
+    <string name="streams">Flux</string>
+    <string name="addStream">Ajouter une radio</string>
+    <string name="editStream">Modifier la radio</string>
+    <string name="streamErrorInvalidURL">Veuillez entrer une adresse valide</string>
+
+    <string name="streamAdded">Flux %s ajouté</string>
+    <string name="deleteStream">Supprimer la radio</string>
+    <string name="deleteStreamPrompt">Êtes vous sur de vouloir supprimer </string>
+    <string name="streamName">Nom de la radio</string>
+    <string name="streamUrl">URL</string>
+
+    <string name="notPlayingInRandomMode">Les éléments ajoutée en mode "hasard" sont ajoutés mais non joués.</string>
+
+    <!-- Begin StreamHandler Specific Strings -->
+    <!-- End StreamHandler Specific Strings -->
+
+    <!-- Begin MediaPlayer Error Strings -->
+
+    <!-- End MediaPlayer Error Strings -->
+
+    <string name="connectionFailedMessageSetting">\"Echec de la connexion, vérifiez les paramètres (%s) \"</string>
+    <string name="deletePlaylistPrompt">Etes vous certain de vouloir effacer %s?</string>
+
+    <string name="mpd_unknown_album">(Album inconnu)</string>
+    <string name="mpd_unknown_artist">(Artiste inconnu)</string>
+    <string name="mpd_unknown_genre">(Genre inconnu)</string>
+
+    <string name="minute_singulier">minute</string>
+    <string name="minute_pluriel">minutes</string>
+
+
+    <string name="titles">Titres</string>
+    <string name="title">Titre</string>
+
+    <string name="playlist_name">Nom de la playlist</string>
+    <string name="create_playlist">Créer une playlist</string>
+
+    <string name="add_radio2">Envoyer vers l\'application Radio</string>
+    <string name="addRadio_fromApp">La radio %1$s ajoutée</string>
+
+
+    <string name="menu_sort_by_artist">artiste</string>
+    <string name="menu_sort_by_year">année</string>
+
+    <string name="queue">Liste de lecture</string>
+
+    <string name="defaultSettingsPlus">Paramètres de connexion et pochettes</string>
+
+</resources>

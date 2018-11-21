@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar_layout"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context="org.oucho.mpdclient.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        app:elevation="@dimen/app_bar_elevation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:fitsSystemWindows="true"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeToolbarOverflow"
+            app:popupTheme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/playbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/barre_lecture"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:elevation="@dimen/playbar_elevation">
+
+        <org.oucho.mpdclient.widgets.ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:padding="0dp"
+            app:progressColor="@color/colorAccent" />
+
+        <include layout="@layout/activity_main_playbar_a"
+            android:visibility="visible"/>
+
+        <include layout="@layout/activity_main_playbar_b"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <include layout="@layout/activity_main_content" />
+
+    <FrameLayout
+        android:id="@+id/primary_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginBottom="@dimen/barre_lecture"/>
+
+    <FrameLayout
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginBottom="@dimen/barre_lecture"/>
+
+
+    <org.oucho.mpdclient.widgets.blurview.BlurView
+        android:id="@+id/queueBlurView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginBottom="@dimen/barre_lecture"
+        android:elevation="10dp"
+        android:outlineProvider="bounds"
+        tools:targetApi="m"
+        android:visibility="gone">
+
+       <FrameLayout
+            android:id="@+id/queue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:background="@color/blancTransparent" />
+
+    </org.oucho.mpdclient.widgets.blurview.BlurView>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="connectionScreen">
+    <PreferenceCategory
+        android:key="connectionCategory"
+        android:title="@string/defaultSettingsPlus">
+    </PreferenceCategory>
+
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enableDownloadCover"
+        android:persistent="true"
+        android:summary="@string/enableInternetCoverDescription"
+        android:title="@string/enableInternetCover" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enableLocalCover"
+        android:persistent="true"
+        android:summary="@string/enableLocalCoverDescription"
+        android:title="@string/enableLocalCover" />
+
+</PreferenceScreen>

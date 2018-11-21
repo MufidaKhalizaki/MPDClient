@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/main_menu_group">
+        <item
+            android:id="@+id/menu_sort_by_az"
+            android:title="Ordre alphabétique" />
+        <item
+            android:id="@+id/menu_sort_by_artist"
+            android:title="@string/artists" />
+        <item
+            android:id="@+id/menu_sort_by_year"
+            android:title="Année" />
+
+    </group>
+
+</menu>

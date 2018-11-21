@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressBar">
+        <attr name="progressColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="cardStyle">
+        <attr name="cardStyle" format="reference" />
+    </declare-styleable>
+
+    <attr name="listItemHeight" format="dimension" />
+
+    <declare-styleable name="FastScrollRecyclerView">
+        <attr name="hideScrollbar" format="boolean" />
+        <attr name="handleColor" format="color" />
+        <attr name="bubbleColor" format="color" />
+        <attr name="bubbleTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="AppTheme">
+        <attr name="noCoverArtIcon" format="reference" />
+        <attr name="menuButton" format="reference" />
+        <attr name="listItemHandle" format="reference" />
+        <attr name="listItemHorizontalSeparatorColor" format="color" />
+        <attr name="playQueueIcon" format="reference" />
+        <attr name="overflowButton" format="reference" />
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="AlbumCoverDownloadListener" type="id" />
+
+    <item name="CoverAsyncHelper" type="id" />
+
+    <item type="id" name="fastscroller" />
+
+</resources>
